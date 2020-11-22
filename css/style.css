@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.colored-section{
+    background-color: blue;
+}
+.colored-section ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.colored-section ul li{
+    list-style-type: none;
+    display: inline;
+    color: grey;
+    padding: 50px 50px 50px 50px;
+    font-size: 1.10em;
+}
+.colored-section a{
+    text-decoration: none;
+}
+.colored-section a:link{
+    color: #f0f0f0;
+}
+.colored-section a:visited{
+    color: #f0f0f0;
+}
+.active{
+    color: white !important;
+}
+.wrapper{
+    width: 75%;
+    margin: auto;
+}
