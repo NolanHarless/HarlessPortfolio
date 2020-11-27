@@ -23,15 +23,31 @@ body{
     text-decoration: none;
 }
 .colored-section a:link{
-    color: #f0f0f0;
+    color: #d6d6d6;
 }
 .colored-section a:visited{
-    color: #f0f0f0;
+    color: #d6d6d6;
 }
 .active{
     color: white !important;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
 }
 .wrapper{
     width: 75%;
     margin: auto;
+}
+.black-bar{
+    background-color: black;
+}
+.black-menu-bar{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+.black-menu-bar p{
+    font-weight: bold;
+    padding: 5px 40px;
 }
