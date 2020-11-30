@@ -1,53 +1,72 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
-.colored-section{
-    background-color: blue;
+
+.colored-section {
+    background-color: #435058;
 }
-.colored-section ul{
+
+.colored-section ul {
     display: flex;
     justify-content: flex-end;
 }
-.colored-section ul li{
+
+.colored-section ul li {
     list-style-type: none;
     display: inline;
-    color: grey;
+    color: #dcf763;
     padding: 50px 50px 50px 50px;
     font-size: 1.10em;
 }
-.colored-section a{
+.colored-section ul li a:hover{
+    color: white;
+}
+
+.colored-section a {
     text-decoration: none;
 }
-.colored-section a:link{
-    color: #d6d6d6;
+
+.colored-section a:link {
+    color: #dcf763;
 }
-.colored-section a:visited{
-    color: #d6d6d6;
+
+.colored-section a:visited {
+    color: #dcf763;
 }
-.active{
+
+.active {
     color: white !important;
-    padding-bottom: 10px;
-    border-bottom: 5px solid #fff;
 }
-.wrapper{
+
+.wrapper {
     width: 75%;
     margin: auto;
 }
-.black-bar{
-    background-color: black;
-}
-.black-menu-bar{
+
+.section-home-1 {
     display: flex;
-    background-color: black;
-    color: white;
-    width: 90%;
-    margin: auto;
+    position: relative;
+    align-items: center;
 }
-.black-menu-bar p{
-    font-weight: bold;
-    padding: 5px 40px;
+.img-profile img{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.greeting h2 {
+    color: #dcf763;
+    font-size: 2.5em;
+}
+
+.greeting p {
+    font-size: 1.5em;
+    color: #f1f2ee;
 }
