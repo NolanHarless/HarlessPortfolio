@@ -30,6 +30,10 @@ body {
     width: 100%;
     display: block;
 }
+.abt-img img{
+    width: 100%;
+    display: block;
+}
 .btn:hover{
     background-color: #000;
 }
@@ -40,3 +44,36 @@ body {
     background-color: #405a76;
     color: white;
 }
+.mobile-picture{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .logo-13{
+        width: 30%;
+    }
+    .mobile-scl{
+        display: inline !important;
+        justify-content: end !important;
+    }
+    .prof-img img{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .mobile-picture{
+        display: block;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    .btn{
+        margin-top: 5%;
+    }
+    .pt-5{
+        padding-top: 0px !important;
+    }
+    .abt-img{
+        display: none;
+    }
+  }
