@@ -41,11 +41,14 @@ body {
     background-color: blue;
 }
 .blue-sec{
-    background-color: #405a76;
+    background-color: #161781;
     color: white;
 }
 .mobile-picture{
     display: none;
+}
+.ind-img img{
+    width: 100%;
 }
 @media screen and (max-width: 600px) {
     .logo-13{
