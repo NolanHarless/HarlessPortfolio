@@ -29,11 +29,14 @@ body {
 .prof-img img{
     width: 100%;
     display: block;
-    border: 5px solid #000;
 }
 .btn:hover{
     background-color: #000;
 }
 .btn{
     background-color: blue;
+}
+.blue-sec{
+    background-color: #405a76;
+    color: white;
 }
