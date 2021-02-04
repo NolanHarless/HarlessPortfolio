@@ -50,6 +50,11 @@ body {
 .ind-img img{
     width: 100%;
 }
+.art-board img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 @media screen and (max-width: 600px) {
     .logo-13{
         width: 30%;
