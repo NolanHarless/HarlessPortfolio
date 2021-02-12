@@ -163,4 +163,10 @@ body {
     .footer-para{
         display: none;
     }
+    .prof-img{
+        display: none;
+    }
+    .gallery-img img{
+        border:none;
+    }
   }
