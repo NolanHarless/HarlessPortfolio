@@ -21,7 +21,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
+    <div class="container mobile-scl">
       <a class="navbar-brand" href="#"><img class="logo-13 p-3" src="nh13-logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
       <div class="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
           <li class="nav-item p-3">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item p-3">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item p-3">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link active" href="#">Projects</a>
           </li>
           <li class="nav-item p-3">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -47,35 +47,23 @@
   </nav>
 
   <div class="container">
+    
     <div class="row">
       <div class="col-md-12 project-header">
-        <h2>Let's get in touch.</h2>
+        <h2>My Gallery</h2>
         <hr />
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img width=100% src="images/nolan-poses.jpg">
-      </div>
-      <div class="col-md-8">
-        <h2>My links are below: </h2>
-        <ul>
-          <li>
-            LinkedIn Profile (Message Me)
-          </li>
-          <li>
-            Gmail
-          </li>
-          <li>
-            Instagram Profile
-          </li>
-          <li>
-            BeHance Profile
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
+  <div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="projects.html">My Projects</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+        </ol>
+      </nav>
+  </div>
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
