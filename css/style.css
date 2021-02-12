@@ -150,4 +150,17 @@ body {
     .abt-img{
         display: none;
     }
+    .footer-black ul{
+        margin-top: 15%;
+        font-size: 1.25em;
+    }
+    .footer-black ul li{
+        padding:  10px 0px;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-para{
+        display: none;
+    }
   }
