@@ -182,6 +182,9 @@ body {
         font-size: 1.65em;
     }
   }
+  .mob-pic{
+      height: 200px;
+  }
 @media screen and (max-width: 600px) {
     .logo-13{
         width: 30%;
