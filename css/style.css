@@ -222,9 +222,11 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    opacity: 0.6;
   }
   
   #myBtn:hover {
+      opacity: 1;
     background-color: #555;
   }
   ::-moz-selection {
@@ -236,6 +238,18 @@ body {
     color: blue;
     background: yellow;
   }
+  .img-gallery{
+    display: block;
+    width: 100%;
+    padding: 25px;
+}
+.gallery-font{
+    color: #0a0b61;
+    font-size: 2.5em;
+}
+.text-justify{
+    text-align: justify;
+}
   /* The typing effect */
   @-webkit-keyframes typing {
     from { width: 0 }
