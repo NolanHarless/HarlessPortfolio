@@ -1,11 +1,11 @@
 
 
+
 * {
     margin: 0;
     padding: 0;
     font-weight: 500;
 }
-
 body {
     font-family: 'Josefin Sans', sans-serif !important;
 }
@@ -38,10 +38,11 @@ body {
     display: block;
 }
 .btn:hover{
-    background-color: #000;
+    background-color: #0a0b61;
 }
 .btn{
     background-color: rgb(44, 44, 153);
+    border: 3px solid #161781;
 }
 .blue-sec{
     background-color: rgb(36, 36, 90);
@@ -156,16 +157,22 @@ body {
   }
   .white-action-btn{
       background-color: white;
-      border: 5px solid #fff;
+      border: 3px solid #fff;
       font-weight: bold;
       border-radius: 5px;
+      padding: 10px 20px !important;
   }
   .white-action-btn:hover{
-    background-color: #161781;
+    background-color: #000;
     color: white;
   }
   .white-action-btn:focus{
     display: none;
+  }
+  .nd-cta{
+    background-color: white;
+    color:#161781;
+    border: 3px solid #161781;
   }
   .well {
     display: -webkit-box;
@@ -174,6 +181,60 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .card-body p{
+      color: white;
+  }
+  .accordian-btn{
+      width: 100%;
+      color: #0a0b61;
+      background-color: transparent;
+      text-decoration: none;
+      border: none;
+  }
+  .accordian-btn:hover{
+      background-color: white;
+  }
+  .accordian-btn:focus{
+      display: none;
+      outline:0 !important;
+  }
+  .accordian-header{
+      text-align: center;
+  }
+  .card{
+      background-color: transparent;
+  }
+  .card-header{
+      background-color: white;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0a0b61;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  ::-moz-selection {
+    color: blue;
+    background: yellow;
+  }
+  
+  ::selection {
+    color: blue;
+    background: yellow;
   }
   /* The typing effect */
   @-webkit-keyframes typing {
@@ -278,6 +339,7 @@ body {
     }
 
     .white-action-btn{
+        font-weight: 100;
         font-size: .75em;
         display: block;
         margin: auto;

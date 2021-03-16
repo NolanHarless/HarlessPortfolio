@@ -35,17 +35,17 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end p-3" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end">
-          <li class="nav-item p-3">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item">
+            <a class="nav-link active p-4" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item p-3">
-            <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="about.html">About</a>
           </li>
-          <li class="nav-item p-3">
-            <a class="nav-link" href="projects.html">Projects</a>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="projects.html">Projects</a>
           </li>
-          <li class="nav-item p-3">
-            <a class="nav-link" href="resume.html">Resume</a>
+          <li class="nav-item">
+            <a class="nav-link p-4" href="resume.html">Resume</a>
           </li>
         </ul>
       </div>
@@ -59,16 +59,12 @@
           <img src="images/nolan-profile.png" alt="Image of Nolan holding a thumbs up.">
         </div>
         <div class="col-sm-8 p-5 pad-mobile">
-          <h1 class="display-4">Hello! My name is, Nolan.</h1>
-          <p class="lead">Thank you for visiting my portfolio. I am graduating <span class="blue-font">Northwest
-              Missouri State University</span> in May 2021 with a bachelor of science degree in <span
-              class="blue-font">Digital Media Computer Science.</span><span class="mobile-vanish"> I enjoy frontend development, design, and sales.
-            I am an experienced web developer with a demonstrated history of working in the software development industry.</span>
-          </p>
-          <hr class="my-4">
+          <h1 class="display-4">Hello! My name is Nolan.</h1>
+          <p class="lead">Great to have you on my page! I am a professional <span class="blue-font">web developer and designer</span> graduating from <span class="blue-font">Northwest Missouri State University</span> in May 2021 with a bachelor of science degree in <span class="blue-font">Digital Media Computer Science.</span>
+            <hr class="my-4">
           <p class="lead btn-mobile">
-            <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn About Me</a>
-            <a class="btn btn-primary btn-lg" href="projects.html" role="button">See My Work</a>
+            <a class="btn btn-primary btn-lg" href="projects.html" role="button">My Projects</a>
+            <a class="btn btn-primary btn-lg nd-cta" href="about.html" role="button">About Me</a>
           </p>
         </div>
       </div>
@@ -81,11 +77,56 @@
           <img class=" mt-5 mb-5 gif-border" src="images/ezgif.com-gif-maker.gif" alt="moving gif of Nolan ringing the NWMSU bell.">
         </div>
         <div class="col-sm-7 p-5 mobile-text">
-          <h3>So what's my mission - you ask?</h3>
-          <p>That's a great question! My mission is to try and help as many people as I can by solving their technical problems. I am known in my family as the "tech guru." The person my family calls when the television input is set to HDMI-1 and needs to be switched over to HDMI-2. They look at me like I am magic!</p>
-        <hr>
-          <p>I enjoy meeting with people, discussing their needs and wants, and then providing them with an outline, strategy, and goal to achieve it. I feel a sense of fulfillment knowing that with my technical background I can potentially help an individual, business, or corporation achieve their goals.</p>
-          <a href="about.html"><button class="white-action-btn p-2">Want to know more about me?</button></a>
+          <h3 class="accordian-header">From Start to Finish:</h3>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link accordian-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    So what's my mission - you ask? <i class="fas fa-caret-down"></i>
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <p>That's a great question! My mission is to try and help as many people as I can by solving their technical problems. I am known in my family as the "tech guru." The person my family calls when the television input is set to HDMI-1 and needs to be switched over to HDMI-2. They look at me like I am magic!</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed accordian-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What's my story? <i class="fas fa-caret-down"></i>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Since beginning my web design and development journey nearly 5 years ago, I've done remote work for agencies, and collaborated with talented people to create digital products for both business and consumer use. I am quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
+                
+                  <br>When I am not doing school work during the day, I am spending my evening working on freelance projects in web and design.
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed accordian-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Why work with me? <i class="fas fa-caret-down"></i>
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  There’s nothing I enjoy more than designing and developing good websites for people and businesses. I’ve spent many years trying to perfect what I do. I take great pride in not only being able to complete work to the high standard you expect but also go the extra mile wherever possible. I enjoy getting to know a business, its goals, and then providing them with an outline, framework and strategy to achieve them. I feel a sense of fulfillment knowing that with my technical background, I can potentially help an individual, business, or corporation achieve their goals.
+                  <a href="projects.html"><button class="white-action-btn p-2 mt-2">See My Work</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -112,8 +153,8 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <img class="pl-4 footer-logo" width=50px src="nh13-logo.png">
-              <p class="mt-3 footer-para">Thank you for taking the time to look at my portfolio and body of work. If you would like to get in touch please do not hesitate to contact me via LinkedIn, email, or phone. I am looking forward to hopefully hearing from you.</p>
+              <a href="index.html"><img class="pl-4 footer-logo" width=50px src="nh13-logo.png" data-toggle="tooltip" data-placement="bottom" title="Go back to main homepage."></a>
+              <p class="mt-3 footer-para">Thank you for taking time to look at my portfolio and my body of work. If  you’ve got a project you’d like to work on with me just get in touch and we can get to work!</p>
             </div>
           </div>
         </div>
@@ -132,5 +173,9 @@
     {'ap':'$AP'},{'server':'$HOSTNAME'},{'id':'$ID'})
     // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
     </script>
+    <script src="https://kit.fontawesome.com/57071f872a.js" crossorigin="anonymous"></script>
     <script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
