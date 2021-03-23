@@ -382,9 +382,6 @@ body {
     .mobile-vanish{
         display: none;
     }
-    hr{
-        display: none;
-    }
     .navbar-toggler{
         margin-left: 30%;
     }
